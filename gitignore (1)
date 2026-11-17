@@ -1,0 +1,21 @@
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 편집기 및 임시 파일
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.log
+*~
+
+# 로컬 환경 및 비밀 정보
+.env
+.env.*
+!.env.example
+
+# 의존성 및 호스팅 전용 설정
+node_modules/
+.openai/
